@@ -1,5 +1,7 @@
 # About
-This is a basic TCP chat service that runs on the network.
+This is a basic TCP chat service written in C# that runs on the network.
+
+It's using the .NET 9.0 framework and built with sockets.
 
 # Examples
 ![1](./.github/1.png)

@@ -7,13 +7,13 @@ namespace Sockets.Core;
 public abstract class Client {
     const string THIS = "CLIENT";
     const string OTHER = "SERVER";
-    const string IP = "10.190.14.231";
 
     static Socket socket = null!;
     static IPEndPoint remoteEp = null!;
     static void Init() {
         try {
-            var ip = IPAddress.Parse(IP);
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            var ip = host.AddressList[1]; 
             remoteEp = new(ip, 6969);
 
             socket = new(

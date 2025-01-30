@@ -1,3 +1,6 @@
+# About
+This is a basic TCP chat service that runs on the network.
+
 # Video Example
 https://youtu.be/4f39dKGbxag
 

@@ -1,8 +1,9 @@
 # About
 This is a basic TCP chat service that runs on the network.
 
-# Video Example
-https://youtu.be/4f39dKGbxag
+# Examples
+![1](./.github/1.png)
+[Video example](https://youtu.be/4f39dKGbxag)
 
 # Usage
 Make sure to run the server instance first. The client will not run without a server:

@@ -3,7 +3,7 @@ This is a basic TCP chat service written in C#.
 
 It's using the .NET 9.0 framework and built with sockets.
 
-> The codebase at the moment is configured to run on the loopback interface, but can be configured to run on other interfaces (wlan0)
+> The codebase is currently configured to run on the loopback interface, but can be configured to run on other interfaces (wlan0)
 
 # Examples
 ![1](./.github/1.png)
